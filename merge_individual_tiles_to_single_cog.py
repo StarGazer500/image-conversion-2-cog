@@ -1,9 +1,9 @@
 import subprocess, glob
 
-folder = r"C:\Users\LENOVO\Rainforest Builder Dropbox\03_RB Ghana - All Team\03_Planning\00_Spatial\04_Drone Imagery\01_Data\01_Forest Reserves\09_Bia North Compartments\2026\BTN_S23-02-26_E25-02-26_R45"
+folder = r"C:\Users\LENOVO\Rainforest Builder Dropbox\03_RB Ghana - All Team\03_Planning\00_Spatial\04_Drone Imagery\01_Data\01_Forest Reserves\08_Tano Suhien\2026\TS_S20-02-26_E22-02-26_R45"
 tiles = glob.glob(folder + r"\*.tif")
 vrt = r"C:\Users\LENOVO\Desktop\tiling\mosaic.vrt"
-output = r"C:\Users\LENOVO\Desktop\tiling\wonde_v2_merged.tif"
+output = r"C:\Users\LENOVO\Desktop\tiling\tano_suhien.tif"
 
 # Step 1 - build VRT (instant, no copying)
 with open(r"C:\Users\LENOVO\Desktop\tiling\filelist.txt", "w") as f:
