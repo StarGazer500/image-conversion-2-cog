@@ -6,3 +6,6 @@ wonde_v2_merged.tif.aux.xml
 *.tif
 *.tiff
 *.xml
+*.tmp
+*.vrt
+
